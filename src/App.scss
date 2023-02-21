@@ -21,3 +21,10 @@ input,
 textarea {
   font-family: "Helvetica Neue", sans-serif;
 }
+
+// color variables for easily changing color style of the whole page
+:root {
+  --color-primary: #ffd700;
+  --color-homebackground: #2A2E35;
+  --color-sidebarbackground: #181818;
+}

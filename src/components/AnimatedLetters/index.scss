@@ -1,3 +1,4 @@
+@import "../../App.scss";
 .text-animate {
     display: inline-block;
     opacity: 0;
@@ -5,6 +6,17 @@
     animation-fill-mode: forwards;
     min-width: 10px;
 }
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+  
+    &:hover {
+      animation: heartBeat 1s;
+      color: #2E72AD;
+    }
+  }
 
 @for $i from 1 through 42 {
     .text-animate._#{$i} {

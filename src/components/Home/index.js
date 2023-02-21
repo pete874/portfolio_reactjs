@@ -5,9 +5,20 @@ import AnimatedLetters from "../AnimatedLetters";
 import './index.scss';
 
 const Home = () => {
+
+    // reactive data and setter for changing letter classes, so we can add animations and hovers
     const [letterClass, setLetterClass] = useState('text-animate')
+    
     const nameArray = ['e', 't', 'r', 'i', ' ', 'N', 'u', 'r', 'm', 'i']
     const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r',]
+
+
+    // new classNames to each letter after 6000ms(6seconds)
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLetterClass("text-animate-hover")
+        }, 6000);
+    }, [])
 
 
 
