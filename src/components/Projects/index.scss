@@ -1,0 +1,65 @@
+.projects-page {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 60%;
+    height: 60&;
+
+}
+
+.project {
+    position: relative;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        z-index: 4;
+    }
+
+}
+
+.hover-items {
+    font-family: 'Coolvetica';
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+
+    a {
+        color: grey;
+    }
+}
+
+.hover-items:hover {
+    opacity: 1;
+
+}
+
+
+
+

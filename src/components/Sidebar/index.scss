@@ -2,7 +2,7 @@
 
 .nav-bar {
     background: var(--color-sidebarbackground);
-    width: 60px;
+    width: 65px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -82,6 +82,12 @@
         a.about-link {
             &::after {
                 content: 'ABOUT';
+            }
+        }
+
+        a.projects-link {
+            &::after {
+                content: 'PROJECTS';
             }
         }
 
