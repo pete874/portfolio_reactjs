@@ -6,7 +6,10 @@ import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fort
 
 const About = () => {
 
+    //usestate for letterclasses
     const [letterClass, setLetterClass] = useState('text-animate')
+
+    //classname change on state change and 4sec delay. This is for letter hover effect
     useEffect(() => {
         const timer = setTimeout(() => {
             setLetterClass("text-animate-hover")

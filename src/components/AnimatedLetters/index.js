@@ -1,5 +1,6 @@
 import './index.scss'
 
+// component for animated letters. We add spans with unique classname for every letter
 const AnimatedLetters = ({ letterClass, strArray, idx}) => {
     return (
         <span>

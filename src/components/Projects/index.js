@@ -5,6 +5,8 @@ import Project3 from '../../assets/images/project3.jpg'
 
 const Projects = () => {
     return (
+
+        //project divs
         <div className='projects-page'>
             <div className='projects-container'>
                 <div className='project'>
