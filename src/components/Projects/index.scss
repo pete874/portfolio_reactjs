@@ -34,7 +34,7 @@
 
 @for $i from 1 through 7 {
     #project#{$i} {
-        animation-delay: #{$i / 5}s;
+        animation-delay: #{$i / 10}s;
     }
 }
 

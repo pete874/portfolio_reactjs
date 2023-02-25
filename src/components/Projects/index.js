@@ -6,6 +6,7 @@ import Project4 from '../../assets/images/project4.jpg'
 import Project5 from '../../assets/images/project5.jpg'
 import Project6 from '../../assets/images/project6.jpg'
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
 
 const Projects = () => {
 
@@ -22,7 +23,7 @@ const Projects = () => {
     return (
 
         
-
+        <>
         //project divs
         <div className='projects-page'>
             <div className='projects-container'>
@@ -77,6 +78,8 @@ const Projects = () => {
             </div>
             </div>
         </div>
+        <Loader type='ball-pulse' />
+        </>
     )
 }
 

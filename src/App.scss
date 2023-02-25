@@ -1,4 +1,6 @@
+
 $primary-color: #ffd700;
+@import '~loaders.css/src/animations/ball-pulse.scss';
 
 @import 'animate.css';
 
@@ -20,6 +22,20 @@ $primary-color: #ffd700;
 input,
 textarea {
   font-family: "Helvetica Neue", sans-serif;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
 }
 
 // color variables for easily changing color style of the whole page
