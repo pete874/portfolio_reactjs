@@ -9,15 +9,16 @@ import { useEffect, useState } from 'react'
 
 const Projects = () => {
 
-        //usestate for projectclass
-        const [projectClass, setProjectClass] = useState('hover-items')
+    //usestate for projectclass
+    const [projectClass, setProjectClass] = useState('hover-items')
 
-        //classname change on state change and 3sec delay. 
-        useEffect(() => {
-            const timer = setTimeout(() => {
-                setProjectClass("hover-items1")
-            }, 3000);
-        }, [])
+    //classname change on state change and 3sec delay. 
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setProjectClass("hover-items1")
+        }, 3000);
+    }, [])
+    
     return (
 
         
