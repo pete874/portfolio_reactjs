@@ -5,7 +5,7 @@
 }
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
     margin-top: 10%;
     margin-left: 10%;
@@ -27,15 +27,22 @@
         border-radius: 10px;
         object-fit: cover;
         z-index: 4;
+        animation: backInUp 1s linear both;
     }
 
+}
+
+@for $i from 1 through 7 {
+    #project#{$i} {
+        animation-delay: #{$i / 5}s;
+    }
 }
 
 //everything thats hidden inside project div
 
 .hover-items {
     font-family: 'Coolvetica';
-    background-color: black;
+    background-color: #181818;
     text-align: center;
     color: #fff;
     font-size: 20px;
@@ -61,6 +68,27 @@
     opacity: 1;
 
 }
+
+
+//media queries for responsive web design
+
+@media only screen and (max-width: 2060px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 1540px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 1060px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+  }
 
 
 
