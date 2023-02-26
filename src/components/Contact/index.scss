@@ -1,0 +1,20 @@
+.contact-links-container {
+    display: flex;
+}
+
+.contact-links {
+    margin-left: 20px;
+    padding: 7px 0;
+    display: block;
+    font-size: 40px;
+    line-height: 16px;
+
+    &:hover svg {
+        color: var(--color-primary);
+    }
+}
+
+#mail {
+    margin-left: 2%;
+    font-size: large;
+}
