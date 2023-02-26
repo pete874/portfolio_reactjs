@@ -7,7 +7,7 @@ import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
-  <div className='nav-bar'>
+  <div className='nav-bar' id='nav_bar'>
       <Link className='logo' to='/'>
           <img src={LogoS} alt="logo" />
           <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
@@ -28,12 +28,12 @@ const Sidebar = () => (
       </nav>
       <ul>
         <li>
-          <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/petri-nurmi-766529235">
+          <a className="links" target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/petri-nurmi-766529235">
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li>
         <li>
-          <a target="_blank" rel='noreferrer' href="https://github.com/pete874">
+          <a className="links" target="_blank" rel='noreferrer' href="https://github.com/pete874">
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>

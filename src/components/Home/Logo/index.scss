@@ -1,13 +1,13 @@
 
-
+// home page big logo
 .logo-container {
     z-index: 0;
-    width: 800px;
+    width: 600px;
     height: 609px;
     position: absolute;
     top: 0;
-    right: 15%;
-    bottom: 45%;
+    right: 25%;
+    bottom: 35%;
     left: auto;
     margin: auto;
 
@@ -23,5 +23,31 @@
         animation: backInRight 1s linear both;
         animation-delay: 4s;
         z-index: 1;
+    }
+}
+
+// Media queries for responsive web page
+@media only screen and (max-width: 1700px) {
+    .logo-container {
+        right: 15%;
+        width: 500px;
+        bottom: 18%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .logo-container {
+        right: 7%;
+        width: 400px;
+        bottom: 1%;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .logo-container {
+        display: none;
+        right: 2%;
+        width: 400px;
+        bottom: 1%;
     }
 }

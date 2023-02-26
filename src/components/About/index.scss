@@ -72,3 +72,17 @@
         transform: rotateY(90deg);
     }
 }
+
+@media screen and (max-width: 600px) {
+    .stage-cube-cont {
+        display: none;
+    }
+
+    .about-page {
+        
+    }
+
+    .text-zone {
+        width: 65% !important;
+    }
+}

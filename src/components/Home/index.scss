@@ -78,3 +78,20 @@
         }
     }
 }
+
+// Media Queries for responsive weg page
+
+@media only screen and (max-width: 855px) {
+    h1 {
+        width: 130%;
+    }
+    .text-zone {
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text-zone {
+        margin-left: 1%;
+    }
+}
