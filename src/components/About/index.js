@@ -28,9 +28,9 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>Integer ac lacus ut metus ornare maximus. Curabitur venenatis magna tortor. Vestibulum vel nisi a risus suscipit viverra ac eu lacus. Suspendisse in magna neque. Suspendisse in volutpat magna. Duis vel leo varius, tincidunt metus mollis, ultrices odio. Integer molestie fermentum nulla maximus bibendum. Donec interdum elit sed efficitur mollis.</p>
-                <p>Curabitur dignissim fermentum lacus a semper. Morbi nisi magna, vulputate in diam sed, sagittis vulputate tortor. Suspendisse elementum convallis leo, tincidunt commodo dui fringilla sit amet. Maecenas sed porttitor justo. Praesent bibendum blandit orci, in placerat lectus pretium id. Duis nec convallis orci. Mauris quis neque nibh.</p>
-                <p>Integer egestas, justo pharetra sodales pharetra, libero magna consequat libero, in porta neque lectus sit amet sem. Proin rhoncus maximus auctor. Donec non aliquam neque. Suspendisse risus tellus, aliquam vel magna ut, maximus convallis neque. Praesent ac est enim. Sed vehicula dictum augue, et vehicula metus mattis eu. Suspendisse blandit pulvinar suscipit. Mauris ullamcorper viverra nisl ut laoreet. Curabitur felis mi, vehicula eu odio sed, vehicula fringilla metus.</p>
+                <p>I'm 37 year old IT enthuasiast from Vantaa. I have been a passionate IT enthusiast since childhood.</p>
+                <p>I'm currently studying software development at Keuda and my main goal is to become a full stack developer someday.</p>
+                <p>The current skills I possess include the fundamentals of Javascript, HTML, CSS, C#(windows forms), and ReactJS</p>
             </div>
 
             <div className='stage-cube-cont'>
