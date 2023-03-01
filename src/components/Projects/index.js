@@ -80,7 +80,7 @@ const Projects = () => {
             <div className='project'>
                 <img src={Project7} id="project7" alt="P"></img>  
                     <div class={projectClass}>
-                        <p>Countdown timer using Javascript</p>
+                        <p>Guess the Number game using Javascript</p>
                         <a href='https://github.com/pete874/yhteistyo/tree/main/arvauspeli' target={'_blank'}>Github</a> <br></br>
                         <a href='https://pete874.github.io/yhteistyo/arvauspeli/' target={'_blank'}>Link</a>
                     </div>  
