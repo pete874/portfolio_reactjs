@@ -6,6 +6,7 @@ import Project4 from '../../assets/images/project4.jpg'
 import Project5 from '../../assets/images/project5.jpg'
 import Project6 from '../../assets/images/project6.jpg'
 import Project7 from '../../assets/images/project7.jpg'
+import Project8 from '../../assets/images/project8.jpg'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 
@@ -25,7 +26,6 @@ const Projects = () => {
 
         
         <>
-        //project divs
         <div className='projects-page'>
             <div className='projects-container'>
                 <div className='project' id="project1">
@@ -83,6 +83,14 @@ const Projects = () => {
                         <p>Guess the Number game using Javascript</p>
                         <a href='https://github.com/pete874/yhteistyo/tree/main/arvauspeli' target={'_blank'}>Github</a> <br></br>
                         <a href='https://pete874.github.io/yhteistyo/arvauspeli/' target={'_blank'}>Link</a>
+                    </div>  
+            </div>
+            <div className='project'>
+                <img src={Project8} id="project8" alt="P"></img>  
+                    <div class={projectClass}>
+                        <p>Memory game with Javascript</p>
+                        <a href='https://github.com/pete874/yhteistyo/tree/main/muistipeli' target={'_blank'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/yhteistyo/muistipeli/' target={'_blank'}>Link</a>
                     </div>  
             </div>
             </div>
