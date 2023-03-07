@@ -7,6 +7,7 @@ import Project5 from '../../assets/images/project5.jpg'
 import Project6 from '../../assets/images/project6.jpg'
 import Project7 from '../../assets/images/project7.jpg'
 import Project8 from '../../assets/images/project8.jpg'
+import Project9 from '../../assets/images/project9.jpg'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 
@@ -34,6 +35,15 @@ const Projects = () => {
                         <p>My first Portfoliopage</p>
                         <a href='https://github.com/pete874/First_portfoliopage' target={'_blank'}>Github</a> <br></br>
                         <a href='https://pete874.github.io/First_portfoliopage/' target={'_blank'}>Link</a>
+                    </div>
+                </div>
+                <div className='project' id="project1">
+                    <img src={Project9}  alt="P"></img>
+                    <div class={projectClass} >
+                        <p>Realtime chat with NodeJS backend</p>
+                        <p>More information @ github readme</p>
+                        <a href='https://github.com/pete874/realtimechat' target={'_blank'}>Github</a> <br></br>
+                        <a href='https://jade-praline-d185aa.netlify.app/' target={'_blank'}>Link</a>
                     </div>
                 </div>
             <div className='project'>
