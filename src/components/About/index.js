@@ -30,7 +30,7 @@ const About = () => {
                 </h1>
                 <p>I'm 37 year old IT enthuasiast from Vantaa. I have been a passionate IT enthusiast since childhood.</p>
                 <p>I'm currently studying software development at Keuda and my main goal is to become a full stack developer someday.</p>
-                <p>The current skills I possess include the fundamentals of Javascript, HTML, CSS, C#(windows forms), and ReactJS</p>
+                <p>The current skills I possess include the fundamentals of Javascript, ReactJS, HTML, CSS, SASS, C# and SQL</p>
             </div>
 
             <div className='stage-cube-cont'>
