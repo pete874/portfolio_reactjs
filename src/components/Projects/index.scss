@@ -32,7 +32,7 @@
 
 }
 
-@for $i from 1 through 11 {
+@for $i from 1 through 12 {
     #project#{$i} {
         animation-delay: #{$i / 10}s;
     }

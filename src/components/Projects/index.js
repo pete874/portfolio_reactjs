@@ -10,6 +10,7 @@ import Project8 from '../../assets/images/project8.jpg'
 import Project9 from '../../assets/images/project9.jpg'
 import Project10 from '../../assets/images/project10.jpg'
 import Project11 from '../../assets/images/project11.jpg'
+import Project12 from '../../assets/images/project12.jpg'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 
@@ -18,9 +19,9 @@ const Projects = () => {
     //usestate for projectclass
     const [projectClass, setProjectClass] = useState('hover-items')
 
-    //classname change on state change and 3sec delay. 
+    //classname change on state change and 2sec delay. 
     useEffect(() => {
-        const timer = setTimeout(() => {
+        setTimeout(() => {
             setProjectClass("hover-items1")
         }, 2000);
     }, [])
@@ -31,94 +32,102 @@ const Projects = () => {
         <>
         <div className='projects-page'>
             <div className='projects-container'>
+            <div className='project'>
+                    <img src={Project12} id="project1" alt="P"></img>
+                    <div className={projectClass} >
+                        <p>Portfolio (this.page)</p>
+                        <p>React, SASS, Animate.css</p>
+                        <a href='https://github.com/pete874/portfolio_reactjs' target={'_blank'} rel={'noreferrer'}>Github</a>
+                    </div>
+                </div>
                 <div className='project'>
-                    <img src={Project1} id="project1" alt="P"></img>
-                    <div class={projectClass} >
+                    <img src={Project1} id="project2" alt="P"></img>
+                    <div className={projectClass} >
                         <p>Portfolio website</p>
-                        <a href='https://github.com/pete874/First_portfoliopage' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/First_portfoliopage/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/First_portfoliopage' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/First_portfoliopage/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Project9} id="project2" alt="P"></img>
-                    <div class={projectClass} >
+                    <img src={Project9} id="project3" alt="P"></img>
+                    <div className={projectClass} >
                         <p>Realtime chat</p>
-                        <p>ReactJS, NodeJS, Socket.io</p>
-                        <a href='https://github.com/pete874/realtimechat' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://jade-praline-d185aa.netlify.app/' target={'_blank'}>Link</a>
+                        <p>React, NodeJS, Socket.io</p>
+                        <a href='https://github.com/pete874/realtimechat' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://jade-praline-d185aa.netlify.app/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>
                 </div>
                 <div className='project'>
-                <img src={Project10} id="project3" alt="P"></img>  
-                    <div class={projectClass}>
+                <img src={Project10} id="project4" alt="P"></img>  
+                    <div className={projectClass}>
                         <p>Hotel Management app</p>
                         <p>C# Windows forms with SQL database connection</p>
-                        <a href='https://github.com/pete874/hotel_management' target={'_blank'}>Github</a>
+                        <a href='https://github.com/pete874/hotel_management' target={'_blank'} rel={'noreferrer'}>Github</a>
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project11} id="project4" alt="P"></img>  
-                    <div class={projectClass}>
+                <img src={Project11} id="project5" alt="P"></img>  
+                    <div className={projectClass}>
                         <p>Pizza ordering App</p>
                         <p>C# Windows forms with SQL database connection</p>
-                        <a href='https://github.com/pete874/pizza_app' target={'_blank'}>Github</a>
+                        <a href='https://github.com/pete874/pizza_app' target={'_blank'} rel={'noreferrer'}>Github</a>
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project2} id="project5" alt="P"></img>
-                    <div class={projectClass}>
+                <img src={Project2} id="project6" alt="P"></img>
+                    <div className={projectClass}>
                         <p>Tic-Tac-Toe using Javascript</p>
-                        <a href='https://github.com/pete874/ristinolla_js' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/ristinolla_js/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/ristinolla_js' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/ristinolla_js/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>
             </div>
             <div className='project'>
-                <img src={Project3} id="project6" alt="P"></img>
-                    <div class={projectClass}>
+                <img src={Project3} id="project7" alt="P"></img>
+                    <div className={projectClass}>
                         <p>Festival page with registration form</p>
-                        <a href='https://github.com/pete874/yhteistyo/tree/main/projekti_3-4' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/yhteistyo/projekti_3-4/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/yhteistyo/tree/main/projekti_3-4' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/yhteistyo/projekti_3-4/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>                
             </div>
             <div className='project'>
-                <img src={Project4} id="project7" alt="P"></img>
-                    <div class={projectClass}>
+                <img src={Project4} id="project8" alt="P"></img>
+                    <div className={projectClass}>
                         <p>Calculator with Javascript</p>
-                        <a href='https://github.com/pete874/yhteistyo/tree/main/laskin' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/yhteistyo/laskin/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/yhteistyo/tree/main/laskin' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/yhteistyo/laskin/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>       
             </div>
             <div className='project'>
-                <img src={Project5} id="project8" alt="P"></img>
-                    <div class={projectClass}>
+                <img src={Project5} id="project9" alt="P"></img>
+                    <div className={projectClass}>
                         <p>To Do list with Javascript</p>
-                        <a href='https://github.com/pete874/yhteistyo/tree/main/Tehtavalista' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/yhteistyo/Tehtavalista/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/yhteistyo/tree/main/Tehtavalista' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/yhteistyo/Tehtavalista/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div> 
                       
             </div>
             <div className='project'>
-                <img src={Project6} id="project9" alt="P"></img>  
-                    <div class={projectClass}>
+                <img src={Project6} id="project10" alt="P"></img>  
+                    <div className={projectClass}>
                         <p>Countdown timer using Javascript</p>
-                        <a href='https://github.com/pete874/countdown-timer' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/countdown-timer/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/countdown-timer' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/countdown-timer/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project7} id="project10" alt="P"></img>  
-                    <div class={projectClass}>
+                <img src={Project7} id="project11" alt="P"></img>  
+                    <div className={projectClass}>
                         <p>Guess the Number game using Javascript</p>
-                        <a href='https://github.com/pete874/yhteistyo/tree/main/arvauspeli' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/yhteistyo/arvauspeli/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/yhteistyo/tree/main/arvauspeli' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/yhteistyo/arvauspeli/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project8} id="project11" alt="P"></img>  
-                    <div class={projectClass}>
+                <img src={Project8} id="project12" alt="P"></img>  
+                    <div className={projectClass}>
                         <p>Memory game with Javascript</p>
-                        <a href='https://github.com/pete874/yhteistyo/tree/main/muistipeli' target={'_blank'}>Github</a> <br></br>
-                        <a href='https://pete874.github.io/yhteistyo/muistipeli/' target={'_blank'}>Link</a>
+                        <a href='https://github.com/pete874/yhteistyo/tree/main/muistipeli' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
+                        <a href='https://pete874.github.io/yhteistyo/muistipeli/' target={'_blank'} rel={'noreferrer'}>Link</a>
                     </div>  
             </div>
             </div>
