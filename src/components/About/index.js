@@ -34,7 +34,7 @@ const About = () => {
                     I hosted my own Quake(1) and IRC Bouncer servers there and information technology has been my every day hobby since.
                 </p>
                 <p>I'm currently studying software development at Keuda and I will become a full stack developer someday.</p>
-                <p>The current skills I possess include the fundamentals of Javascript, ReactJS, React native, HTML, CSS, SASS, C#, SQL and NoSQL</p> <br/> <br/>
+                <p>The current skills I possess include the fundamentals of Azure, Javascript, ReactJS, React Native, HTML, CSS, SASS, C#(.NET), SQL and NoSQL</p> <br/> <br/>
                 <hr></hr>
                 <p>Achievements:</p>
                 <p>Dota 2 - 3509MMR</p>
