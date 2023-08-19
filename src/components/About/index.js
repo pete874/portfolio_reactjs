@@ -30,7 +30,7 @@ const About = () => {
                 </h1>
                 <p> I'm 37 year old IT enthuasiast from Vantaa. I have been a passionate IT enthusiast since childhood. I have over 20year of experience from different linux
                     distroes, running home servers, building computers etc.
-                    First home server that I installed, when I was around 15your old, was Red Hat linux without any UI(terminal only), and was controlled through SSH terminal connection from desktop.
+                    First home server that I installed, when I was around 15year old, was Debian based linux without any UI(terminal only), and was controlled through SSH terminal connection from desktop.
                     I hosted my own Quake(1) and IRC Bouncer servers there and information technology has been my every day hobby since.
                 </p>
                 <p>I'm currently studying software development at Keuda and I will become a full stack developer someday.</p>
