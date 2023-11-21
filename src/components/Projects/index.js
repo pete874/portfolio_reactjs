@@ -13,6 +13,7 @@ import Project11 from '../../assets/images/project11.jpg'
 import Project12 from '../../assets/images/project12.jpg'
 import Project13 from '../../assets/images/project13.jpg'
 import Project14 from '../../assets/images/project14.jpg'
+import Project15 from '../../assets/images/project15.jpg'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 
@@ -45,13 +46,23 @@ const Projects = () => {
                 <div className='project'>
                     <img src={Project1} id="project2" alt="P"></img>
                     <div className={projectClass} >
-                        <p>Portfolio website</p>
+                        <p>Portfolio Website</p>
                         <a href='https://github.com/pete874/First_portfoliopage' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
                         <a href='https://pete874.github.io/First_portfoliopage/' target={'_blank'} rel={'noreferrer'}>Test here</a>
                     </div>
                 </div>
                 <div className='project'>
-                    <img src={Project9} id="project3" alt="P"></img>
+                    <img src={Project15} id="project3" alt="P"></img>
+                    <div className={projectClass} >
+                        <p>Movie Api Project(Api wakes up after few sec)</p>
+                        <p>MongoDB, Java Spring Boot, ReactJs</p>
+                        <a href='https://github.com/pete874/movie_api_react_frontend' target={'_blank'} rel={'noreferrer'}>Github(Frontend)</a> <br></br>
+                        <a href='https://github.com/pete874/movie_api_java_backend' target={'_blank'} rel={'noreferrer'}>Github(Backend)</a> <br></br>
+                        <a href='https://cheery-bombolone-d49210.netlify.app/' target={'_blank'} rel={'noreferrer'}>Test here</a>
+                    </div>
+                </div>
+                <div className='project'>
+                    <img src={Project9} id="project4" alt="P"></img>
                     <div className={projectClass} >
                         <p>Realtime chat</p>
                         <p>React, NodeJS, Socket.io</p>
@@ -60,7 +71,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='project'>
-                <img src={Project13} id="project4" alt="P"></img>  
+                <img src={Project13} id="project5" alt="P"></img>  
                     <div className={projectClass}>
                         <p>PC Super Store app</p>
                         <p>C#, SQL</p>
@@ -68,7 +79,7 @@ const Projects = () => {
                     </div>  
             </div>
                 <div className='project'>
-                <img src={Project10} id="project5" alt="P"></img>  
+                <img src={Project10} id="project6" alt="P"></img>  
                     <div className={projectClass}>
                         <p>Hotel Management app</p>
                         <p>C#,SQL</p>
@@ -76,7 +87,7 @@ const Projects = () => {
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project11} id="project6" alt="P"></img>  
+                <img src={Project11} id="project7" alt="P"></img>  
                     <div className={projectClass}>
                         <p>Pizza ordering App</p>
                         <p>C#, SQL</p>
@@ -84,7 +95,7 @@ const Projects = () => {
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project2} id="project7" alt="P"></img>
+                <img src={Project2} id="project8" alt="P"></img>
                     <div className={projectClass}>
                         <p>Tic-Tac-Toe using Javascript</p>
                         <a href='https://github.com/pete874/ristinolla_js' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
@@ -92,7 +103,7 @@ const Projects = () => {
                     </div>
             </div>
             <div className='project'>
-                <img src={Project3} id="project8" alt="P"></img>
+                <img src={Project3} id="project9" alt="P"></img>
                     <div className={projectClass}>
                         <p>Festival page with registration form</p>
                         <a href='https://github.com/pete874/yhteistyo/tree/main/projekti_3-4' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
@@ -100,7 +111,7 @@ const Projects = () => {
                     </div>                
             </div>
             <div className='project'>
-                <img src={Project14} id="project9" alt="P"></img>
+                <img src={Project14} id="project10" alt="P"></img>
                     <div className={projectClass}>
                         <p>Zelda</p>
                         <p>Kaboom.js javascript library</p>
@@ -109,7 +120,7 @@ const Projects = () => {
                     </div>       
             </div>
             <div className='project'>
-                <img src={Project4} id="project10" alt="P"></img>
+                <img src={Project4} id="project11" alt="P"></img>
                     <div className={projectClass}>
                         <p>Calculator with Javascript</p>
                         <a href='https://github.com/pete874/yhteistyo/tree/main/laskin' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
@@ -117,7 +128,7 @@ const Projects = () => {
                     </div>       
             </div>
             <div className='project'>
-                <img src={Project5} id="project11" alt="P"></img>
+                <img src={Project5} id="project12" alt="P"></img>
                     <div className={projectClass}>
                         <p>To Do list with Javascript</p>
                         <a href='https://github.com/pete874/yhteistyo/tree/main/Tehtavalista' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
@@ -126,7 +137,7 @@ const Projects = () => {
                       
             </div>
             <div className='project'>
-                <img src={Project6} id="project12" alt="P"></img>  
+                <img src={Project6} id="project13" alt="P"></img>  
                     <div className={projectClass}>
                         <p>Countdown timer using Javascript</p>
                         <a href='https://github.com/pete874/countdown-timer' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
@@ -134,7 +145,7 @@ const Projects = () => {
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project7} id="project13" alt="P"></img>  
+                <img src={Project7} id="project14" alt="P"></img>  
                     <div className={projectClass}>
                         <p>Guess the Number game using Javascript</p>
                         <a href='https://github.com/pete874/yhteistyo/tree/main/arvauspeli' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
@@ -142,7 +153,7 @@ const Projects = () => {
                     </div>  
             </div>
             <div className='project'>
-                <img src={Project8} id="project14" alt="P"></img>  
+                <img src={Project8} id="project15" alt="P"></img>  
                     <div className={projectClass}>
                         <p>Memory game with Javascript</p>
                         <a href='https://github.com/pete874/yhteistyo/tree/main/muistipeli' target={'_blank'} rel={'noreferrer'}>Github</a> <br></br>
